@@ -1,0 +1,32 @@
+<div class="container-fluid d-flex align-items-center justify-content-center" style=" height: 600px; width: 600px;">
+    <div class="container bg-light">
+        <div class="row mt-4">
+            <div class="col-md-12 bg-white shadow">
+                <div class="card bg-warning">
+                    <h2 class="text-center py-2">To Do</h2>
+                    <div class="text-center my-2">
+                    </div>
+                </div>
+                    <div class="inputs flex-auto row p-4">
+                        <div class="input-group">
+                            <form (submit)="addTask(); $event.preventDefault();" class="input-group">
+                                <input type="text" class="form-control" placeholder="Enter task" name="task" [(ngModel)]="task">
+                                <button class="btn btn-outline-success" type="submit">+</button>
+                            </form>
+                        </div>
+                    </div>
+                    
+                    <h4 class="text-primary tasktext">Tasks:</h4>
+                    <div class="taskHolder" style="overflow-y: auto; max-height: 1000px">
+                        <div class="row m-3 rowTasks taskDiv" *ngFor="let task of tasks">
+                            <div class="col d-flex justify-content-between align-items-end task truncate " style="border: none;">
+                                <span [class.strike]="task.isDone">{{task.task_name}}</span>
+                                <button class="btnDelete" (click)="completeTask(task)">V</button>
+                                <button class="btnDelete" (click)="deleteTask(task)">X</button>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+</div>

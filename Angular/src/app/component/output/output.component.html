@@ -1,0 +1,28 @@
+<div class="pattern-output-container">
+
+    <div class="dropdown-section">
+      <label for="patternSelect">Select Pattern:</label>
+      <select id="patternSelect" [(ngModel)]="selectedPattern" (change)="onPatternChange()">
+        <option value="3.1">Pattern 3.1</option>
+        <option value="3.2">Pattern 3.2</option>
+        <option value="3.3">Pattern 3.3</option>
+        <option value="3.4">Pattern 3.4</option>
+        <option value="3.5">Pattern 3.5</option>
+        <option value="3.6">Pattern 3.6</option>
+      </select>
+    </div>
+  
+    <div class="dropdown-section">
+      <label for="numberSelect">Select Number (1-20):</label>
+      <select id="numberSelect" [(ngModel)]="selectedNumber" (change)="onPatternChange()">
+        <option *ngFor="let num of numberOptions" [value]="num">{{ num }}</option>
+      </select>
+    </div>
+  
+
+    <div class="inside">
+    <div *ngFor="let line of patternDisplay" class="pattern-line">{{ line }}</div>
+    </div>
+  
+  </div>
+  

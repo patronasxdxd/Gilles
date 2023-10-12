@@ -1,0 +1,40 @@
+.pattern-output-container {
+    font-family: Arial, sans-serif;
+    max-width: 450px;
+    margin: 30px auto;
+    padding: 20px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;   
+    border-radius: 5px;
+}
+
+.dropdown-section {
+    margin-bottom: 20px;
+}
+
+label {
+    display: inline-block;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+select {
+    padding: 6px 10px;
+    font-size: 14px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+}
+
+.pattern-display {
+    white-space: pre;
+}
+.pattern-line {
+    background-color: white;
+    font-family: "Courier New", Courier, monospace; 
+    white-space: pre; 
+}
+
+
+.inside{
+    margin: 40px;
+    box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
+}

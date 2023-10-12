@@ -1,0 +1,13 @@
+# Dependency directory
+node_modules/
+cache/
+
+# OS or Editor folders
+.DS_Store
+.vscode/
+.idea/
+
+# Log files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*

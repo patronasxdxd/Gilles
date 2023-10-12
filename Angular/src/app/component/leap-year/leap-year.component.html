@@ -1,0 +1,11 @@
+<div class="leap-year-container">
+    <div class="input-view">
+        <input [(ngModel)]="year" (keydown.enter)="checkLeapYear()" placeholder="Enter a year" class="year-input">
+        <p *ngIf="isLeapYear !== null">{{ isLeapYearMessage() }}</p>
+        <p class="error-message">{{ errorMessage }}</p>
+        <button (click)="checkLeapYear()" class="check-button">Check</button>
+      
+    </div>
+
+  </div>
+  

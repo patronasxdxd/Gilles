@@ -1,0 +1,54 @@
+.fizz-buzz-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    padding: 20px;
+    overflow: auto;
+  }
+  
+  ul {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(80px, 1fr));
+    gap: 10px;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    max-width: 600px;
+    width: 100%;
+  }
+  
+  li {
+    padding: 8px;
+    border: 1px solid #ddd;
+    text-align: center;
+    background-color: #fff;
+    border-radius: 4px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;   
+  }
+  
+  li:hover {
+    background-color: #f5f5f5;
+  }
+  
+  .fizzbuzz {
+    color: white;
+    background-color: green;
+  }
+  
+  .number {
+    color: white;
+    background-color: yellowgreen;
+  }
+
+  .fizz {
+    color: white;
+    background-color: blue;
+  }
+
+  .buzz {
+    color: #ddd;
+    background-color: red;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;   
+  }

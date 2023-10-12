@@ -1,0 +1,11 @@
+<div class="prime-container">
+    <div class="input-view">
+      <input [(ngModel)]="number" (input)="filterNumber()" (keydown.enter)="filterNumber()" placeholder="Enter a number" class="prime-input">
+      <p class="error-message">{{ errorMessage }}</p>
+      <button class="check-button" (click)="generatePrimes()">Generate Primes up to the number</button>
+      <ul>
+        <li *ngFor="let prime of primes">{{ prime }}</li>
+      </ul>
+    </div>
+  </div>
+  
