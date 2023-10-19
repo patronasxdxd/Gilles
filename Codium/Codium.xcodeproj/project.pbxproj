@@ -1,0 +1,666 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8F25CC4F2AE0677100090C77 /* PrimeNumberViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F25CC4E2AE0677100090C77 /* PrimeNumberViewController.swift */; };
+		8F25CC512AE0691000090C77 /* PatternViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F25CC502AE0691000090C77 /* PatternViewController.swift */; };
+		8F25CC532AE0697E00090C77 /* PatternGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F25CC522AE0697E00090C77 /* PatternGenerator.swift */; };
+		8F9DB90D2AE1B2D800DCEE8D /* FIZZBUZZ_Logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 8F9DB90C2AE1B2D800DCEE8D /* FIZZBUZZ_Logo.png */; };
+		8F9DB90F2AE1BEBC00DCEE8D /* TaskService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F9DB90E2AE1BEBC00DCEE8D /* TaskService.swift */; };
+		8FC663E12AE03D3B004880C7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FC663E02AE03D3B004880C7 /* AppDelegate.swift */; };
+		8FC663E32AE03D3B004880C7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FC663E22AE03D3B004880C7 /* SceneDelegate.swift */; };
+		8FC663E82AE03D3B004880C7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8FC663E62AE03D3B004880C7 /* Main.storyboard */; };
+		8FC663EA2AE03D3C004880C7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8FC663E92AE03D3C004880C7 /* Assets.xcassets */; };
+		8FC663ED2AE03D3C004880C7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8FC663EB2AE03D3C004880C7 /* LaunchScreen.storyboard */; };
+		8FC663F82AE03D3C004880C7 /* CodiumTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FC663F72AE03D3C004880C7 /* CodiumTests.swift */; };
+		8FC664022AE03D3C004880C7 /* CodiumUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FC664012AE03D3C004880C7 /* CodiumUITests.swift */; };
+		8FC664042AE03D3C004880C7 /* CodiumUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FC664032AE03D3C004880C7 /* CodiumUITestsLaunchTests.swift */; };
+		8FC664172AE05BF2004880C7 /* prime.png in Resources */ = {isa = PBXBuildFile; fileRef = 8FC664162AE05BF2004880C7 /* prime.png */; };
+		8FC6641C2AE05BFB004880C7 /* todo.png in Resources */ = {isa = PBXBuildFile; fileRef = 8FC664182AE05BFB004880C7 /* todo.png */; };
+		8FC6641D2AE05BFB004880C7 /* pattern.png in Resources */ = {isa = PBXBuildFile; fileRef = 8FC664192AE05BFB004880C7 /* pattern.png */; };
+		8FC6641F2AE05BFB004880C7 /* leapyear.png in Resources */ = {isa = PBXBuildFile; fileRef = 8FC6641B2AE05BFB004880C7 /* leapyear.png */; };
+		8FC664212AE05E1A004880C7 /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FC664202AE05E1A004880C7 /* Task.swift */; };
+		8FC664232AE05E80004880C7 /* TaskListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FC664222AE05E80004880C7 /* TaskListViewController.swift */; };
+		8FC664252AE05EC3004880C7 /* FizzBuzzViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FC664242AE05EC3004880C7 /* FizzBuzzViewController.swift */; };
+		8FC664272AE0635D004880C7 /* UITabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FC664262AE0635D004880C7 /* UITabBarController.swift */; };
+		8FC6642B2AE063F2004880C7 /* TodoListVIewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FC6642A2AE063F2004880C7 /* TodoListVIewController.swift */; };
+		8FC6642D2AE0656A004880C7 /* LeapYearViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FC6642C2AE0656A004880C7 /* LeapYearViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8FC663F42AE03D3C004880C7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8FC663D52AE03D3B004880C7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8FC663DC2AE03D3B004880C7;
+			remoteInfo = Codium;
+		};
+		8FC663FE2AE03D3C004880C7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8FC663D52AE03D3B004880C7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8FC663DC2AE03D3B004880C7;
+			remoteInfo = Codium;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8F25CC4E2AE0677100090C77 /* PrimeNumberViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrimeNumberViewController.swift; sourceTree = "<group>"; };
+		8F25CC502AE0691000090C77 /* PatternViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatternViewController.swift; sourceTree = "<group>"; };
+		8F25CC522AE0697E00090C77 /* PatternGenerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatternGenerator.swift; sourceTree = "<group>"; };
+		8F9DB90C2AE1B2D800DCEE8D /* FIZZBUZZ_Logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = FIZZBUZZ_Logo.png; path = ../../../Downloads/FIZZBUZZ_Logo.png; sourceTree = "<group>"; };
+		8F9DB90E2AE1BEBC00DCEE8D /* TaskService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskService.swift; sourceTree = "<group>"; };
+		8FC663DD2AE03D3B004880C7 /* Codium.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Codium.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8FC663E02AE03D3B004880C7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8FC663E22AE03D3B004880C7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		8FC663E72AE03D3B004880C7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8FC663E92AE03D3C004880C7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8FC663EC2AE03D3C004880C7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8FC663EE2AE03D3C004880C7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8FC663F32AE03D3C004880C7 /* CodiumTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CodiumTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8FC663F72AE03D3C004880C7 /* CodiumTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodiumTests.swift; sourceTree = "<group>"; };
+		8FC663FD2AE03D3C004880C7 /* CodiumUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CodiumUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8FC664012AE03D3C004880C7 /* CodiumUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodiumUITests.swift; sourceTree = "<group>"; };
+		8FC664032AE03D3C004880C7 /* CodiumUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodiumUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		8FC664162AE05BF2004880C7 /* prime.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = prime.png; path = ../../../Downloads/prime.png; sourceTree = "<group>"; };
+		8FC664182AE05BFB004880C7 /* todo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = todo.png; path = ../../../Downloads/todo.png; sourceTree = "<group>"; };
+		8FC664192AE05BFB004880C7 /* pattern.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = pattern.png; path = ../../../Downloads/pattern.png; sourceTree = "<group>"; };
+		8FC6641B2AE05BFB004880C7 /* leapyear.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = leapyear.png; path = ../../../Downloads/leapyear.png; sourceTree = "<group>"; };
+		8FC664202AE05E1A004880C7 /* Task.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
+		8FC664222AE05E80004880C7 /* TaskListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskListViewController.swift; sourceTree = "<group>"; };
+		8FC664242AE05EC3004880C7 /* FizzBuzzViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FizzBuzzViewController.swift; sourceTree = "<group>"; };
+		8FC664262AE0635D004880C7 /* UITabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITabBarController.swift; sourceTree = "<group>"; };
+		8FC6642A2AE063F2004880C7 /* TodoListVIewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoListVIewController.swift; sourceTree = "<group>"; };
+		8FC6642C2AE0656A004880C7 /* LeapYearViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeapYearViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8FC663DA2AE03D3B004880C7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8FC663F02AE03D3C004880C7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8FC663FA2AE03D3C004880C7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8FC663D42AE03D3B004880C7 = {
+			isa = PBXGroup;
+			children = (
+				8FC663DF2AE03D3B004880C7 /* Codium */,
+				8FC663F62AE03D3C004880C7 /* CodiumTests */,
+				8FC664002AE03D3C004880C7 /* CodiumUITests */,
+				8FC663DE2AE03D3B004880C7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8FC663DE2AE03D3B004880C7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8FC663DD2AE03D3B004880C7 /* Codium.app */,
+				8FC663F32AE03D3C004880C7 /* CodiumTests.xctest */,
+				8FC663FD2AE03D3C004880C7 /* CodiumUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8FC663DF2AE03D3B004880C7 /* Codium */ = {
+			isa = PBXGroup;
+			children = (
+				8FC663E02AE03D3B004880C7 /* AppDelegate.swift */,
+				8FC663E22AE03D3B004880C7 /* SceneDelegate.swift */,
+				8FC663E62AE03D3B004880C7 /* Main.storyboard */,
+				8FC6641B2AE05BFB004880C7 /* leapyear.png */,
+				8F9DB90C2AE1B2D800DCEE8D /* FIZZBUZZ_Logo.png */,
+				8FC664192AE05BFB004880C7 /* pattern.png */,
+				8FC664182AE05BFB004880C7 /* todo.png */,
+				8FC664162AE05BF2004880C7 /* prime.png */,
+				8FC663E92AE03D3C004880C7 /* Assets.xcassets */,
+				8FC663EB2AE03D3C004880C7 /* LaunchScreen.storyboard */,
+				8FC663EE2AE03D3C004880C7 /* Info.plist */,
+				8FC664202AE05E1A004880C7 /* Task.swift */,
+				8FC664222AE05E80004880C7 /* TaskListViewController.swift */,
+				8FC664242AE05EC3004880C7 /* FizzBuzzViewController.swift */,
+				8FC664262AE0635D004880C7 /* UITabBarController.swift */,
+				8FC6642A2AE063F2004880C7 /* TodoListVIewController.swift */,
+				8FC6642C2AE0656A004880C7 /* LeapYearViewController.swift */,
+				8F25CC4E2AE0677100090C77 /* PrimeNumberViewController.swift */,
+				8F25CC502AE0691000090C77 /* PatternViewController.swift */,
+				8F25CC522AE0697E00090C77 /* PatternGenerator.swift */,
+				8F9DB90E2AE1BEBC00DCEE8D /* TaskService.swift */,
+			);
+			path = Codium;
+			sourceTree = "<group>";
+		};
+		8FC663F62AE03D3C004880C7 /* CodiumTests */ = {
+			isa = PBXGroup;
+			children = (
+				8FC663F72AE03D3C004880C7 /* CodiumTests.swift */,
+			);
+			path = CodiumTests;
+			sourceTree = "<group>";
+		};
+		8FC664002AE03D3C004880C7 /* CodiumUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8FC664012AE03D3C004880C7 /* CodiumUITests.swift */,
+				8FC664032AE03D3C004880C7 /* CodiumUITestsLaunchTests.swift */,
+			);
+			path = CodiumUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8FC663DC2AE03D3B004880C7 /* Codium */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8FC664072AE03D3C004880C7 /* Build configuration list for PBXNativeTarget "Codium" */;
+			buildPhases = (
+				8FC663D92AE03D3B004880C7 /* Sources */,
+				8FC663DA2AE03D3B004880C7 /* Frameworks */,
+				8FC663DB2AE03D3B004880C7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Codium;
+			productName = Codium;
+			productReference = 8FC663DD2AE03D3B004880C7 /* Codium.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8FC663F22AE03D3C004880C7 /* CodiumTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8FC6640A2AE03D3C004880C7 /* Build configuration list for PBXNativeTarget "CodiumTests" */;
+			buildPhases = (
+				8FC663EF2AE03D3C004880C7 /* Sources */,
+				8FC663F02AE03D3C004880C7 /* Frameworks */,
+				8FC663F12AE03D3C004880C7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8FC663F52AE03D3C004880C7 /* PBXTargetDependency */,
+			);
+			name = CodiumTests;
+			productName = CodiumTests;
+			productReference = 8FC663F32AE03D3C004880C7 /* CodiumTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8FC663FC2AE03D3C004880C7 /* CodiumUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8FC6640D2AE03D3C004880C7 /* Build configuration list for PBXNativeTarget "CodiumUITests" */;
+			buildPhases = (
+				8FC663F92AE03D3C004880C7 /* Sources */,
+				8FC663FA2AE03D3C004880C7 /* Frameworks */,
+				8FC663FB2AE03D3C004880C7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8FC663FF2AE03D3C004880C7 /* PBXTargetDependency */,
+			);
+			name = CodiumUITests;
+			productName = CodiumUITests;
+			productReference = 8FC663FD2AE03D3C004880C7 /* CodiumUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8FC663D52AE03D3B004880C7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					8FC663DC2AE03D3B004880C7 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+					8FC663F22AE03D3C004880C7 = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = 8FC663DC2AE03D3B004880C7;
+					};
+					8FC663FC2AE03D3C004880C7 = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = 8FC663DC2AE03D3B004880C7;
+					};
+				};
+			};
+			buildConfigurationList = 8FC663D82AE03D3B004880C7 /* Build configuration list for PBXProject "Codium" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8FC663D42AE03D3B004880C7;
+			productRefGroup = 8FC663DE2AE03D3B004880C7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8FC663DC2AE03D3B004880C7 /* Codium */,
+				8FC663F22AE03D3C004880C7 /* CodiumTests */,
+				8FC663FC2AE03D3C004880C7 /* CodiumUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8FC663DB2AE03D3B004880C7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8FC663ED2AE03D3C004880C7 /* LaunchScreen.storyboard in Resources */,
+				8FC6641C2AE05BFB004880C7 /* todo.png in Resources */,
+				8FC6641F2AE05BFB004880C7 /* leapyear.png in Resources */,
+				8FC6641D2AE05BFB004880C7 /* pattern.png in Resources */,
+				8FC664172AE05BF2004880C7 /* prime.png in Resources */,
+				8FC663EA2AE03D3C004880C7 /* Assets.xcassets in Resources */,
+				8F9DB90D2AE1B2D800DCEE8D /* FIZZBUZZ_Logo.png in Resources */,
+				8FC663E82AE03D3B004880C7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8FC663F12AE03D3C004880C7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8FC663FB2AE03D3C004880C7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8FC663D92AE03D3B004880C7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F9DB90F2AE1BEBC00DCEE8D /* TaskService.swift in Sources */,
+				8FC6642D2AE0656A004880C7 /* LeapYearViewController.swift in Sources */,
+				8FC663E12AE03D3B004880C7 /* AppDelegate.swift in Sources */,
+				8FC663E32AE03D3B004880C7 /* SceneDelegate.swift in Sources */,
+				8FC664272AE0635D004880C7 /* UITabBarController.swift in Sources */,
+				8FC6642B2AE063F2004880C7 /* TodoListVIewController.swift in Sources */,
+				8F25CC532AE0697E00090C77 /* PatternGenerator.swift in Sources */,
+				8F25CC512AE0691000090C77 /* PatternViewController.swift in Sources */,
+				8FC664252AE05EC3004880C7 /* FizzBuzzViewController.swift in Sources */,
+				8F25CC4F2AE0677100090C77 /* PrimeNumberViewController.swift in Sources */,
+				8FC664232AE05E80004880C7 /* TaskListViewController.swift in Sources */,
+				8FC664212AE05E1A004880C7 /* Task.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8FC663EF2AE03D3C004880C7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8FC663F82AE03D3C004880C7 /* CodiumTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8FC663F92AE03D3C004880C7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8FC664022AE03D3C004880C7 /* CodiumUITests.swift in Sources */,
+				8FC664042AE03D3C004880C7 /* CodiumUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8FC663F52AE03D3C004880C7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8FC663DC2AE03D3B004880C7 /* Codium */;
+			targetProxy = 8FC663F42AE03D3C004880C7 /* PBXContainerItemProxy */;
+		};
+		8FC663FF2AE03D3C004880C7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8FC663DC2AE03D3B004880C7 /* Codium */;
+			targetProxy = 8FC663FE2AE03D3C004880C7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8FC663E62AE03D3B004880C7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8FC663E72AE03D3B004880C7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8FC663EB2AE03D3C004880C7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8FC663EC2AE03D3C004880C7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8FC664052AE03D3C004880C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8FC664062AE03D3C004880C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8FC664082AE03D3C004880C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9VBPH73M9S;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Codium/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = gilles.Codium;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8FC664092AE03D3C004880C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9VBPH73M9S;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Codium/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = gilles.Codium;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8FC6640B2AE03D3C004880C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = gilles.CodiumTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Codium.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Codium";
+			};
+			name = Debug;
+		};
+		8FC6640C2AE03D3C004880C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = gilles.CodiumTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Codium.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Codium";
+			};
+			name = Release;
+		};
+		8FC6640E2AE03D3C004880C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = gilles.CodiumUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Codium;
+			};
+			name = Debug;
+		};
+		8FC6640F2AE03D3C004880C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = gilles.CodiumUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Codium;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8FC663D82AE03D3B004880C7 /* Build configuration list for PBXProject "Codium" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8FC664052AE03D3C004880C7 /* Debug */,
+				8FC664062AE03D3C004880C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8FC664072AE03D3C004880C7 /* Build configuration list for PBXNativeTarget "Codium" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8FC664082AE03D3C004880C7 /* Debug */,
+				8FC664092AE03D3C004880C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8FC6640A2AE03D3C004880C7 /* Build configuration list for PBXNativeTarget "CodiumTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8FC6640B2AE03D3C004880C7 /* Debug */,
+				8FC6640C2AE03D3C004880C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8FC6640D2AE03D3C004880C7 /* Build configuration list for PBXNativeTarget "CodiumUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8FC6640E2AE03D3C004880C7 /* Debug */,
+				8FC6640F2AE03D3C004880C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8FC663D52AE03D3B004880C7 /* Project object */;
+}
