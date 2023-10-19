@@ -12,7 +12,6 @@ class MainTabBarController: UITabBarController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-
         let fizzBuzzViewController = FizzBuzzViewController()
         let todoListViewController = TodoListViewController()
         let leapYearViewController = LeapYearViewController()
@@ -34,7 +33,6 @@ class MainTabBarController: UITabBarController {
         let primeNumberNavigationController = UINavigationController(rootViewController: primeNumberViewController)
         let patternNavigationController = UINavigationController(rootViewController: patternViewController)
 
-
         viewControllers = [
             fizzBuzzNavigationController,
             todoListNavigationController,
@@ -42,11 +40,7 @@ class MainTabBarController: UITabBarController {
             primeNumberNavigationController,
             patternNavigationController
         ]
-
     }
-
-    
-  
 }
 
 extension UIImage {
@@ -63,7 +57,6 @@ extension UIImage {
         self.draw(in: rect)
         let newImage = UIGraphicsGetImageFromCurrentImageContext()
         UIGraphicsEndImageContext()
-
         return newImage
     }
 }

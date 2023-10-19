@@ -16,8 +16,7 @@ class FizzBuzzViewController: UIViewController, UITableViewDataSource {
     override func viewDidLoad() {
         super.viewDidLoad()
         self.view.backgroundColor = UIColor.white
-
-        // Create a new UILabel
+        
         let titleLabel = UILabel()
         titleLabel.text = "Fizz Buzz"
         titleLabel.textAlignment = .center
@@ -25,7 +24,6 @@ class FizzBuzzViewController: UIViewController, UITableViewDataSource {
         titleLabel.font = UIFont.boldSystemFont(ofSize: 17)
 
         navigationItem.titleView = titleLabel
-      
         navigationController?.navigationBar.tintColor = .black
         
         setupTableView()
@@ -47,7 +45,7 @@ class FizzBuzzViewController: UIViewController, UITableViewDataSource {
             tableView.trailingAnchor.constraint(equalTo: view.safeAreaLayoutGuide.trailingAnchor)
         ])
     }
-    
+
     private func calculateFizzBuzz() {
         for number in 1...100 {
             fizzBuzzResults.append(fizzBuzz(number))
@@ -57,15 +55,11 @@ class FizzBuzzViewController: UIViewController, UITableViewDataSource {
     
     func fizzBuzz(_ number: Int) -> String {
         var result = ""
-
         if number % 3 == 0 { result += "Fizz" }
         if number % 5 == 0 { result += "Buzz" }
         if result.isEmpty { result = "\(number)" }
-
         return result
     }
-    
-    // MARK: - UITableViewDataSource
 
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return fizzBuzzResults.count
@@ -79,7 +73,6 @@ class FizzBuzzViewController: UIViewController, UITableViewDataSource {
         cell.textLabel?.textAlignment = .center
         cell.textLabel?.font = UIFont.systemFont(ofSize: 18, weight: .bold)
 
-        
         switch result {
         case "Fizz":
             cell.backgroundColor = UIColor.blue
@@ -96,7 +89,6 @@ class FizzBuzzViewController: UIViewController, UITableViewDataSource {
         }
         return cell
     }
-
 }
 
 class CustomTableViewCell: UITableViewCell {

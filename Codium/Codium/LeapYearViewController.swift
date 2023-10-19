@@ -9,7 +9,6 @@ import UIKit
 
 class LeapYearViewController: UIViewController {
 
-
     private let yearTextField: UITextField = {
         let textField = UITextField()
         textField.placeholder = "Enter year"

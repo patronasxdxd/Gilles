@@ -13,7 +13,6 @@ class PatternViewController: UIViewController, UIPickerViewDataSource, UIPickerV
         self.view.backgroundColor = .white
         self.title = "Pattern Generator"
         
-
         displayButton.addTarget(self, action: #selector(displayPattern), for: .touchUpInside)
         setupPatternPicker()
         setupUI()
@@ -52,7 +51,6 @@ class PatternViewController: UIViewController, UIPickerViewDataSource, UIPickerV
            view.endEditing(true)
        }
 
-
        func numberOfComponents(in pickerView: UIPickerView) -> Int {
            return 1
        }
@@ -68,7 +66,6 @@ class PatternViewController: UIViewController, UIPickerViewDataSource, UIPickerV
        func pickerView(_ pickerView: UIPickerView, didSelectRow row: Int, inComponent component: Int) {
            patternTextField.text = patternOptions[row]
        }
-    
     
     private let patternTextField: UITextField = {
          let textField = UITextField()
@@ -91,9 +88,6 @@ class PatternViewController: UIViewController, UIPickerViewDataSource, UIPickerV
         button.backgroundColor = .systemBlue
 
         button.layer.cornerRadius = 10
-        
-
-        
         return button
     }()
     
@@ -113,12 +107,8 @@ class PatternViewController: UIViewController, UIPickerViewDataSource, UIPickerV
         textView.layer.shadowRadius = 4.0
         
         textView.layer.masksToBounds = false
-
         return textView
     }()
-
-    
-   
     
     private func setupUI() {
         view.addSubview(patternTextField)

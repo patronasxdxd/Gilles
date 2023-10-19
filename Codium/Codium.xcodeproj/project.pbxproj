@@ -25,7 +25,6 @@
 		8FC6641D2AE05BFB004880C7 /* pattern.png in Resources */ = {isa = PBXBuildFile; fileRef = 8FC664192AE05BFB004880C7 /* pattern.png */; };
 		8FC6641F2AE05BFB004880C7 /* leapyear.png in Resources */ = {isa = PBXBuildFile; fileRef = 8FC6641B2AE05BFB004880C7 /* leapyear.png */; };
 		8FC664212AE05E1A004880C7 /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FC664202AE05E1A004880C7 /* Task.swift */; };
-		8FC664232AE05E80004880C7 /* TaskListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FC664222AE05E80004880C7 /* TaskListViewController.swift */; };
 		8FC664252AE05EC3004880C7 /* FizzBuzzViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FC664242AE05EC3004880C7 /* FizzBuzzViewController.swift */; };
 		8FC664272AE0635D004880C7 /* UITabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FC664262AE0635D004880C7 /* UITabBarController.swift */; };
 		8FC6642B2AE063F2004880C7 /* TodoListVIewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FC6642A2AE063F2004880C7 /* TodoListVIewController.swift */; };
@@ -72,7 +71,6 @@
 		8FC664192AE05BFB004880C7 /* pattern.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = pattern.png; path = ../../../Downloads/pattern.png; sourceTree = "<group>"; };
 		8FC6641B2AE05BFB004880C7 /* leapyear.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = leapyear.png; path = ../../../Downloads/leapyear.png; sourceTree = "<group>"; };
 		8FC664202AE05E1A004880C7 /* Task.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
-		8FC664222AE05E80004880C7 /* TaskListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskListViewController.swift; sourceTree = "<group>"; };
 		8FC664242AE05EC3004880C7 /* FizzBuzzViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FizzBuzzViewController.swift; sourceTree = "<group>"; };
 		8FC664262AE0635D004880C7 /* UITabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITabBarController.swift; sourceTree = "<group>"; };
 		8FC6642A2AE063F2004880C7 /* TodoListVIewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoListVIewController.swift; sourceTree = "<group>"; };
@@ -139,7 +137,6 @@
 				8FC663EB2AE03D3C004880C7 /* LaunchScreen.storyboard */,
 				8FC663EE2AE03D3C004880C7 /* Info.plist */,
 				8FC664202AE05E1A004880C7 /* Task.swift */,
-				8FC664222AE05E80004880C7 /* TaskListViewController.swift */,
 				8FC664242AE05EC3004880C7 /* FizzBuzzViewController.swift */,
 				8FC664262AE0635D004880C7 /* UITabBarController.swift */,
 				8FC6642A2AE063F2004880C7 /* TodoListVIewController.swift */,
@@ -315,7 +312,6 @@
 				8F25CC512AE0691000090C77 /* PatternViewController.swift in Sources */,
 				8FC664252AE05EC3004880C7 /* FizzBuzzViewController.swift in Sources */,
 				8F25CC4F2AE0677100090C77 /* PrimeNumberViewController.swift in Sources */,
-				8FC664232AE05E80004880C7 /* TaskListViewController.swift in Sources */,
 				8FC664212AE05E1A004880C7 /* Task.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

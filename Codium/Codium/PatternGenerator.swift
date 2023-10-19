@@ -28,7 +28,6 @@ struct PatternGenerator {
            }
        }
     
-    
     func pattern3_1(n: Int) -> String {
         var output = ""
         for i in 1...n {
@@ -94,8 +93,6 @@ struct PatternGenerator {
         return output
     }
 
-
-
     func pattern3_6(n: Int) -> String {
         var output = ""
 
@@ -133,9 +130,4 @@ struct PatternGenerator {
 
         return output
     }
-
-
-
-
- 
 }

@@ -18,7 +18,6 @@ class TodoListViewController: UIViewController, UITableViewDelegate, UITableView
             }
         }
     }
-
   
     private let emptyListView: UIView = {
         let view = UIView()
@@ -71,8 +70,6 @@ class TodoListViewController: UIViewController, UITableViewDelegate, UITableView
         
         updateEmptyListView()
         loadTasks()
-
-        
     }
     
     func loadTasks() {
@@ -83,12 +80,10 @@ class TodoListViewController: UIViewController, UITableViewDelegate, UITableView
 
                case .failure(let error):
                    print("Error loading tasks: \(error.localizedDescription)")
-            
                }
            }
        }
 
-    
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
          return todos.count
      }
@@ -113,7 +108,6 @@ class TodoListViewController: UIViewController, UITableViewDelegate, UITableView
                     print("An error occurred while removing the task: \(error.localizedDescription)")
                 }
             }
-
             todos.remove(at: indexPath.row)
             tableView.deleteRows(at: [indexPath], with: .fade)
         }
@@ -123,7 +117,6 @@ class TodoListViewController: UIViewController, UITableViewDelegate, UITableView
         return true
     }
 
-    
     @objc private func didTapAddItemButton() {
         let alert = UIAlertController(title: "New To-Do Item", message: "Enter the title of your to-do item", preferredStyle: .alert)
         
@@ -135,7 +128,6 @@ class TodoListViewController: UIViewController, UITableViewDelegate, UITableView
             guard let textField = alert.textFields?.first, let text = textField.text, !text.isEmpty else {
                 return
             }
-
             let newTask = Task(id: nil, description: text, isDone: false)
 
             TaskService.shared.postTaskToServer(task: newTask) { result in
@@ -151,8 +143,6 @@ class TodoListViewController: UIViewController, UITableViewDelegate, UITableView
                 present(alert, animated: true)
     }
 
-
-    
     private func updateEmptyListView() {
            emptyListView.isHidden = !todos.isEmpty
        }

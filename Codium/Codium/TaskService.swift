@@ -44,7 +44,6 @@ class TaskService {
         }.resume()
     }
 
-        
     func toggleTaskCompletion(task: Task, completion: @escaping (Result<Void, Error>) -> Void) {
         guard let taskId = task.id else {
             print("Task ID is nil")
@@ -76,9 +75,6 @@ class TaskService {
             completion(.success(()))
         }.resume()
     }
-
-
-
         
     func postTaskToServer(task: Task, completion: @escaping (Result<Void, Error>) -> Void) {
         guard let url = URL(string: API.baseURL) else {
@@ -104,7 +100,6 @@ class TaskService {
                 print("HTTP Status Code: \(httpResponse.statusCode)")
             }
         
-            
             self?.getTasksFromServer { result in
                 switch result {
                 case .success:
@@ -116,7 +111,6 @@ class TaskService {
             }
         }.resume()
     }
-
 
     func removeTaskFromServer(task: Task, completion: @escaping (Result<Void, Error>) -> Void) {
         guard let taskId = task.id else {
@@ -148,7 +142,6 @@ class TaskService {
                 print("HTTP Status Code: \(httpResponse.statusCode)")
             }
 
-            
             self?.getTasksFromServer { result in
                 switch result {
                 case .success:
@@ -160,6 +153,4 @@ class TaskService {
             }
         }.resume()
     }
-
-
 }

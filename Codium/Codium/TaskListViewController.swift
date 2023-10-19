@@ -9,7 +9,6 @@ import UIKit
 
 class TaskListViewController: UITableViewController {
     
-    // Sample data
     var tasks = [Task(id: 1,description: "Task 1", isDone: false), Task(id:2,description: "Task 2", isDone: false)]
     
     override func viewDidLoad() {
